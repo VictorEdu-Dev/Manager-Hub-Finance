@@ -11,7 +11,10 @@ import jakarta.persistence.LockModeType;
  *
  * @param <ID> the type of the primary key
  * @param <E> the type of the entity class
+ * 
+ * @deprecated Desde a versão 1.0. Use {@link jakarta.data.repository.CrudRepository}. Esta interface será removida em uma versão futura.
  */
+@Deprecated(since = "1.0", forRemoval = true)
 public interface CrudRepository<ID, E> {
 	/**
 	  * This method is used to find a single entity in the repository.

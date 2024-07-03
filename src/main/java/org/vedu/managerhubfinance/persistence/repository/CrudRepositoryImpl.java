@@ -9,6 +9,10 @@ import jakarta.persistence.LockModeType;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.criteria.CriteriaQuery;
 
+/**
+ * @deprecated Desde a versão 1.0. Use {@link jakarta.data.repository.CrudRepository}. Esta interface será removida em uma versão futura.
+ */
+@Deprecated(since = "1.0", forRemoval = true)
 public abstract class CrudRepositoryImpl<ID, E> implements CrudRepository<ID, E> {
 
 	@PersistenceContext
