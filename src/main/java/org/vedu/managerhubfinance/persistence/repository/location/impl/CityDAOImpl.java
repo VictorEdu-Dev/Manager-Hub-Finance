@@ -1,8 +1,8 @@
-package org.vedu.managerhubfinance.persistence.repository.base.impl;
+package org.vedu.managerhubfinance.persistence.repository.location.impl;
 
 import org.vedu.managerhubfinance.persistence.model.groupbasic.City;
 import org.vedu.managerhubfinance.persistence.repository.CrudRepositoryImpl;
-import org.vedu.managerhubfinance.persistence.repository.base.CityDAO;
+import org.vedu.managerhubfinance.persistence.repository.location.CityDAO;
 
 import jakarta.ejb.Stateless;
 import jakarta.persistence.LockModeType;

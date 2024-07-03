@@ -1,4 +1,4 @@
-package org.vedu.managerhubfinance.persistence.repository.base;
+package org.vedu.managerhubfinance.persistence.repository.location;
 
 import org.vedu.managerhubfinance.persistence.repository.CrudRepository;
 

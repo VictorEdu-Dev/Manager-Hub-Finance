@@ -1,10 +1,10 @@
-package org.vedu.managerhubfinance.persistence.repository.base.impl;
+package org.vedu.managerhubfinance.persistence.repository.location.impl;
 
 import java.util.Optional;
 
 import org.vedu.managerhubfinance.persistence.model.groupbasic.State;
 import org.vedu.managerhubfinance.persistence.repository.CrudRepositoryImpl;
-import org.vedu.managerhubfinance.persistence.repository.base.StateDAO;
+import org.vedu.managerhubfinance.persistence.repository.location.StateDAO;
 
 import jakarta.ejb.Stateless;
 import jakarta.persistence.LockModeType;

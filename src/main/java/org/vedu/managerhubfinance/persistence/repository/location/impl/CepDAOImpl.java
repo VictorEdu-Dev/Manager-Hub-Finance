@@ -1,11 +1,11 @@
-package org.vedu.managerhubfinance.persistence.repository.base.impl;
+package org.vedu.managerhubfinance.persistence.repository.location.impl;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.vedu.managerhubfinance.persistence.model.groupbasic.Cep;
 import org.vedu.managerhubfinance.persistence.repository.CrudRepositoryImpl;
-import org.vedu.managerhubfinance.persistence.repository.base.CepDAO;
+import org.vedu.managerhubfinance.persistence.repository.location.CepDAO;
 
 import jakarta.ejb.Stateless;
 import jakarta.persistence.TypedQuery;
