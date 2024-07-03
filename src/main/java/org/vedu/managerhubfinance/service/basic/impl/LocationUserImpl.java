@@ -8,9 +8,9 @@ import java.util.logging.Logger;
 import org.vedu.managerhubfinance.persistence.model.groupbasic.Cep;
 import org.vedu.managerhubfinance.persistence.model.groupbasic.City;
 import org.vedu.managerhubfinance.persistence.model.groupbasic.State;
-import org.vedu.managerhubfinance.persistence.repository.base.CepDAO;
-import org.vedu.managerhubfinance.persistence.repository.base.CityDAO;
-import org.vedu.managerhubfinance.persistence.repository.base.StateDAO;
+import org.vedu.managerhubfinance.persistence.repository.location.CepDAO;
+import org.vedu.managerhubfinance.persistence.repository.location.CityDAO;
+import org.vedu.managerhubfinance.persistence.repository.location.StateDAO;
 import org.vedu.managerhubfinance.service.basic.LocationService;
 
 import jakarta.annotation.PostConstruct;
