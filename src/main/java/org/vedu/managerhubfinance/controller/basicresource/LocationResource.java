@@ -5,7 +5,7 @@ import java.lang.invoke.MethodHandles;
 import java.util.Map;
 import java.util.logging.Logger;
 
-import org.vedu.managerhubfinance.service.basic.LocationService;
+import org.vedu.managerhubfinance.service.location.LocationService;
 
 import jakarta.ejb.EJB;
 import jakarta.ws.rs.GET;

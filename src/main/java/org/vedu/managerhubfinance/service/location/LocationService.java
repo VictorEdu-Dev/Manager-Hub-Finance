@@ -1,4 +1,4 @@
-package org.vedu.managerhubfinance.service.basic;
+package org.vedu.managerhubfinance.service.location;
 
 import java.util.Map;
 import java.util.Optional;
