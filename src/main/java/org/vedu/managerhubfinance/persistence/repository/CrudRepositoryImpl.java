@@ -59,6 +59,7 @@ public abstract class CrudRepositoryImpl<ID, E> implements CrudRepository<ID, E>
 		return entityManager.getReference(entityClass, key);
 	}
 	
+	@Override
 	public Long getCount() {
 		CriteriaQuery<Long> c = entityManager.getCriteriaBuilder().createQuery(Long.class);
 		c.select(entityManager.getCriteriaBuilder().count(c.from(entityClass)));
