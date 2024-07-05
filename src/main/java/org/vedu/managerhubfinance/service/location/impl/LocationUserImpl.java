@@ -1,4 +1,4 @@
-package org.vedu.managerhubfinance.service.basic.impl;
+package org.vedu.managerhubfinance.service.location.impl;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,9 +9,10 @@ import org.vedu.managerhubfinance.persistence.model.groupbasic.Cep;
 import org.vedu.managerhubfinance.persistence.model.groupbasic.City;
 import org.vedu.managerhubfinance.persistence.model.groupbasic.State;
 import org.vedu.managerhubfinance.persistence.repository.location.CepDAO;
+import org.vedu.managerhubfinance.persistence.repository.location.CepDataStore;
 import org.vedu.managerhubfinance.persistence.repository.location.CityDAO;
 import org.vedu.managerhubfinance.persistence.repository.location.StateDAO;
-import org.vedu.managerhubfinance.service.basic.LocationService;
+import org.vedu.managerhubfinance.service.location.LocationService;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
@@ -24,6 +25,8 @@ public class LocationUserImpl implements LocationService {
 	
 	@EJB
 	private CepDAO<String, Cep> cepDAO;
+	
+	private CepDataStore cepDataStore;
 	
 	@EJB
 	private CityDAO<String, City> cityDAO;
@@ -46,6 +49,7 @@ public class LocationUserImpl implements LocationService {
 		return stateDAO.findByName(stateName).map(State::getIbgeCode);
 	}
 
+	@Deprecated
 	@Override
 	public Optional<String> getCityName(String cepNumber) {
 		return cepDAO.findSingleEntity(cepNumber).map(cep -> cep.getCity().getName());
