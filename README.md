@@ -130,5 +130,5 @@ Este projeto está licenciado sob a [Eclipse Public License - v 2.0](LICENSE).
 Para mais informações ou dúvidas, entre em contato:
 
 - **Nome:** Victor Eduardo
-- **Email:** [victoreduardodev@gmail.com](mailto:victoreduardodev@gmail.com)
+- **Email:** [victorepc.dev@gmail.com](mailto:victorepc.devdev@gmail.com)
 
