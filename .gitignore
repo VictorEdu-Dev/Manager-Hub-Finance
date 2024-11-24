@@ -25,7 +25,12 @@ replay_pid*
 /.apt_generated/
 /.apt_generated_tests/
 /target/
+/.idea
 
 # Maven
 .classpath
 README.md
+/postgresql-module
+
+# Docker volumes
+/deployments
